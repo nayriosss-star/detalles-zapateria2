@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Modelos | Detalles Zapatería</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&family=Playfair+Display&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+  <h1 class="logo-texto">Detalles Zapatería</h1>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="modelos.html">Modelos</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+</header>
+
+<h2>Nuestros Modelos</h2>
+
+<!-- FILTRO -->
+<div class="filtro">
+  <label>Filtrar por talle:</label>
+
+  <select id="filtroTalle" onchange="filtrar()">
+    <option value="todos">Todos</option>
+    <option value="36">36</option>
+    <option value="37">37</option>
+    <option value="38">38</option>
+    <option value="39">39</option>
+  </select>
+</div>
+
+<!-- PRODUCTOS -->
+<section class="productos">
+
+  <div class="producto" data-talles="36,37">
+    <h3>Zapatilla Blanca</h3>
+    <p>$25.000</p>
+    <p>Talles: 36 - 37</p>
+  </div>
+
+</section>
+
+<!-- BOTÓN VOLVER -->
+<div style="margin:30px;">
+  <a href="Index.html" class="boton">⬅ Volver al inicio</a>
+</div>
+
+</body>
